@@ -1,0 +1,18 @@
+.navigation{
+    background-color: rgb(10, 10, 10);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .appLogo{
+    width: 200px;
+    height: inherit;
+    margin-right: auto;
+  }
+  .imgLogo{
+    height: inherit;
+  }
+  .navLink{
+    margin: 0 1rem 0 0;
+  }

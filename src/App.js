@@ -1,36 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
+import Characteristics from './components/Characteristics/Characteristics';
+import Header from './components/Header/Header';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Bookkeeper</h1>
-      <nav
-        style={{
-          borderBottom: "solid 1px",
-          paddingBottom: "1rem",
-        }}
-      >
-        <Link to="/">Home</Link> |{" "}
-        <Link to="/invoices">Invoices</Link> |{" "}
-        <Link to="/expenses">Expenses</Link>
-      </nav>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header></Header>
+      <section className='section-characteristics'>
+        <Characteristics></Characteristics>
+      </section>
+      <section className='section-fill'>
+      </section>
     </div>
+      
   );
 }
 

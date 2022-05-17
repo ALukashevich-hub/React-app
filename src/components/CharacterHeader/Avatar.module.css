@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.profile{
+    display: flex;
+    height: inherit;
+}
+.avatar{
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-size: contain;
+}
+.info{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.nickname{
+    color: hsl(0, 0%, 90%);
+    font-size: 1.8rem;
+}
+.dev{
+    color: hsl(0, 0%, 60%);
+    font-size: 1rem;
+}
+.lvl{
+    color: hsl(0, 0%, 90%);
+    font-size: 1.2rem;
+}

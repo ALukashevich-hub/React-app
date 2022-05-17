@@ -1,0 +1,10 @@
+.left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    height: 700px;
+    margin-right: 1rem;
+    box-sizing: border-box;
+    border: 2px solid greenyellow;
+}

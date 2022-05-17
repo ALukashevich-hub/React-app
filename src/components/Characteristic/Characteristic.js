@@ -6,9 +6,9 @@ const Characteristic = (props) => {
         <span className={styles.heading}>{props.char.heading}</span>
         <div className={styles.modContainer}>
           <span className={styles.sign}>{props.char.sign}</span>
-          <div className={styles.modifier}>{props.char.modifier}</div>
+          <span className={styles.modifier}>{props.char.modifier}</span>
         </div>
-        <div className={styles.value}>{props.char.value}</div>
+        <span className={styles.value}>{props.char.value}</span>
       </div>
     );
   }

@@ -1,0 +1,9 @@
+.right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-grow: 2;
+    height: 600px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 47);
+}

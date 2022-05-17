@@ -5,11 +5,11 @@
     justify-content: center;
     align-items: center;
     border: 2px solid hsl(0, 100%, 50%);
+    margin-right: 2rem;
     background-color: hsl(0, 0%, 100%);
+    width: 100px;
+    height: 90px;
     border-radius: 20px;
-    margin-right: 1rem;
-    width: 90px;
-    height: 80px;
     box-sizing: border-box;
 }
 .heading{
@@ -24,20 +24,10 @@
 }
 .sign{
     position: absolute;
-    left: -1rem;
+    left: 2rem;
     color: hsl(0, 0%, 35%);
 }
-.modifier{
-
-}
-.value{
-    margin-top: -1rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-    position: relative;
-    top: 1rem;
-    border: 2px solid red;
-    border-radius: 20px;
-    width: 40%;
-    background: white;
+.footer{
+    margin-bottom: 0;
+    font-weight: 500;
 }

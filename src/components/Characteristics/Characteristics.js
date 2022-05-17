@@ -1,5 +1,6 @@
 import styles from './Characteristics.module.css';
 import Characteristic from '../Characteristic/Characteristic';
+import Other from './Other/Other';
 const test = [{
   heading: "STR",
   sign: "-",
@@ -45,7 +46,10 @@ const listCharacteristic = test.map((char, key) => {
 const Characteristics = () => {
   return (
     <div className={styles.container}>
-      {listCharacteristic}
+      <div className={styles.left}>
+        {listCharacteristic}
+      </div>
+      <Other></Other>
     </div>
   );
 }
